@@ -18,13 +18,6 @@ header {
     background-repeat: no-repeat; 
 }
 
-header h1 {
-    font-family: 'Marhey', sans-serif;
-    font-size: 60px;
-    color: white;
-    letter-spacing: 4px;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
-}
 
 
 #navbar-bg{
@@ -36,4 +29,41 @@ header h1 {
     opacity: 0.8;
     border-radius: 4px;
     padding: 6px 12px;
+    color: white;
+}
+
+
+
+div h2 {
+    font-family: 'Marhey', sans-serif;
+    color: #1283b9;
+    font-variant: small-caps;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #1c88c7;  
+    text-underline-offset: 6px;
+}
+
+
+header h1 {
+    font-family: 'Marhey', sans-serif;
+    font-size: 3rem;                /* 3x alapméret */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 10px black;
+    color: white;
+}
+
+table thead {
+    font-family: 'Marhey', sans-serif;
+}
+
+
+
+
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 1.5rem;
+    }
 }

@@ -59,7 +59,9 @@ table thead {
 }
 
 
-
+.shadow{
+    box-shadow: 1px 1px 3px #06435f !important;
+}
 
 @media (min-width: 992px) {
     h1 {
